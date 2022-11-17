@@ -5,7 +5,7 @@ import { Btn } from '../styles/components/ButtonStyle'
 const Banner = () => {
     return (
         <Container>
-            <Video autoPlay loop muted plays-inline>
+            <Video autoPlay loop muted playsInline>
                 <source src='../coffee.mp4' type="video/mp4" />
             </Video>
             <Content>
