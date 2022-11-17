@@ -2,6 +2,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Btn } from '../styles/components/ButtonStyle'
 import { CardContainer, CardImg, CardText, Container, Grid, Title } from '../styles/components/CoffeeStyle'
+import firstImg from '../public/3.jpg'
+import secondImg from '../public/2.jpg'
+import thirdImg from '../public/1.jpg'
+import fourthImg from '../public/4.jpg'
 
 const Coffee = () => {
     return (
@@ -15,7 +19,8 @@ const Coffee = () => {
                 <CardContainer>
                     <CardImg>
                         <Image
-                            src="/../public/3.jpg"
+                            src={firstImg}
+                            alt="an image"
                             layout="fill"
                         />
                     </CardImg>
@@ -32,7 +37,8 @@ const Coffee = () => {
                 <CardContainer>
                     <CardImg>
                         <Image
-                            src="/../public/2.jpg"
+                            src={secondImg}
+                            alt="an image"
                             layout="fill"
                         />
                     </CardImg>
@@ -49,7 +55,8 @@ const Coffee = () => {
                 <CardContainer>
                     <CardImg>
                         <Image
-                            src="/../public/1.jpg"
+                            src={thirdImg}
+                            alt="an image"
                             layout="fill"
                         />
                     </CardImg>
@@ -66,7 +73,8 @@ const Coffee = () => {
                 <CardContainer>
                     <CardImg>
                         <Image
-                            src="/../public/4.jpg"
+                            src={fourthImg}
+                            alt="an image"
                             layout="fill"
                         />
                     </CardImg>
