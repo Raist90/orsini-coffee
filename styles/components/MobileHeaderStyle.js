@@ -50,7 +50,7 @@ export const NavbarLi = styled.li`
         padding: 10px;
         cursor: pointer;
         line-height: 0;
-        transition: all linear 400s;
+        transition: background linear 100ms;
     }
 
         &:last-child:hover, &:last-child:focus {
