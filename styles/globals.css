@@ -41,6 +41,16 @@ section {
   border-bottom: 1px solid #2b2b2b;
 }
 
+.hideMe {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.showMe {
+  visibility: visible;
+  opacity: 1;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   body {
     font-size: 1rem;

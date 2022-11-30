@@ -50,10 +50,33 @@ export const NavbarLi = styled.li`
         padding: 10px;
         cursor: pointer;
         line-height: 0;
-        transition: background linear 400ms;
+        transition: all linear 400s;
     }
 
         &:last-child:hover, &:last-child:focus {
             background: #A52A2A;
         }
 `
+
+export const ToggleNavContainer = styled.div`
+    position: fixed;
+    width: 100%;
+    background: rgba(27, 18, 18, .9);
+    color: #fff;
+    margin-top: 60px;
+    z-index: 999;
+    border: 1px solid #000;
+    transition: all 100ms linear;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 20px 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+`
+
+export const Item = styled.span``
