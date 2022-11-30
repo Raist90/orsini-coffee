@@ -9,8 +9,8 @@ const Banner = () => {
                 <source src='../coffee.mp4' type="video/mp4" />
             </Video>
             <Content>
+                <Title>È bbuono</Title>
                 <Paragraph>
-                    <Title>È bbuono</Title>
                     Irure irure enim aliquip laboris nisi pariatur eiusmod irure fugiat culpa laboris nisi ipsum.
                 </Paragraph>
                 <Link href="#">

@@ -7,12 +7,9 @@ import { AiOutlineClose } from 'react-icons/ai'
 const MobileHeader = () => {
     let [toggleNav, setToggleNav] = useState(0)
     const handleToggleNav = () => {
-        if (toggleNav == 0) {
-            setToggleNav(toggleNav = 1);
-        } else {
-            setToggleNav(toggleNav = 0);
-        }
-        console.log(toggleNav);
+        toggleNav == 0
+            ? setToggleNav(toggleNav = 1)
+            : setToggleNav(toggleNav = 0)
     }
 
     return (

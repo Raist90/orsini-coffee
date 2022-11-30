@@ -21,7 +21,6 @@ const Coffee = () => {
                         <Image
                             src={firstImg}
                             alt="an image"
-                            layout="fill"
                         />
                     </CardImg>
                     <CardText>
@@ -39,7 +38,6 @@ const Coffee = () => {
                         <Image
                             src={secondImg}
                             alt="an image"
-                            layout="fill"
                         />
                     </CardImg>
                     <CardText>
@@ -57,7 +55,6 @@ const Coffee = () => {
                         <Image
                             src={thirdImg}
                             alt="an image"
-                            layout="fill"
                         />
                     </CardImg>
                     <CardText>
@@ -73,9 +70,9 @@ const Coffee = () => {
                 <CardContainer>
                     <CardImg>
                         <Image
+                            priority="true"
                             src={fourthImg}
                             alt="an image"
-                            layout="fill"
                         />
                     </CardImg>
                     <CardText>
