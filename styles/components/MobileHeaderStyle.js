@@ -53,7 +53,7 @@ export const NavbarLi = styled.li`
         transition: background linear 400ms;
     }
 
-        &:last-child:hover {
+        &:last-child:hover, &:last-child:focus {
             background: #A52A2A;
         }
 `
