@@ -9,6 +9,10 @@ export const Container = styled.div`
     color: #fff;
     position: fixed;
     z-index: 999;
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        display: none;
+    }
 `
 
 export const Navbar = styled.nav`
