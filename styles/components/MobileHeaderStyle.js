@@ -43,7 +43,7 @@ export const NavbarLi = styled.li`
         margin: 0;
     }
 
-    &:last-child {
+    &:last-child, &:last-child:focus, &:last-child:active {
         background: #1b1b1b;
         border: 1px solid #ebebeb;
         border-radius: 50%;
@@ -53,7 +53,7 @@ export const NavbarLi = styled.li`
         transition: background linear 100ms;
     }
 
-        &:last-child:hover, &:last-child:focus {
+        &:last-child:hover {
             background: #A52A2A;
         }
 `
