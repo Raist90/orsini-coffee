@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Container, Navbar, NavbarUl, NavbarLi } from '../styles/components/MobileHeaderStyle'
-import { GiHamburgerMenu } from 'react-icons/Gi'
+import { GiHamburgerMenu } from 'react-icons/gi'
 
 const MobileHeader = () => {
     const [toggle, setToggle] = useState(false)
