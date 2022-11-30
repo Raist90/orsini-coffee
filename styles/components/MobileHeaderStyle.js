@@ -1,23 +1,23 @@
 import styled from '@emotion/styled';
 
 export const Container = styled.header`
-    z-index: 999;
     display: none;
-    width: 100%;
-    background: #1B1212;
-    color: #fff;
-    padding: 0 30px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    position: fixed;
 
     p {
         margin: 0;
     }
 
     @media (min-width: 320px) and (max-width: 480px) {
-    display: flex;
+        display: flex;
+        width: 100%;
+        background: #1B1212;
+        color: #fff;
+        padding: 0 30px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        z-index: 999;
     }
 `
 
