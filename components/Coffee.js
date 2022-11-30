@@ -71,6 +71,7 @@ const Coffee = () => {
                     <CardImg>
                         <Image
                             priority="true"
+                            as="img"
                             src={fourthImg}
                             alt="an image"
                         />
