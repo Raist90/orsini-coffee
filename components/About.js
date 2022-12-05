@@ -10,9 +10,9 @@ const About = () => {
         AOS.init();
     }, [])
     return (
-        <Container>
+        <Container id="storia">
             <LeftCol>
-                <Title id="storia">Perché sceglierci?</Title>
+                <Title>Perché sceglierci?</Title>
                 <p>
                     Consectetur consectetur id enim quis amet pariatur officia officia est quis occaecat. Ut fugiat minim duis nisi tempor ad velit eiusmod. In nulla eu sit aute incididunt elit laboris voluptate labore ullamco consectetur incididunt. Sunt consequat id velit est dolore incididunt consectetur eu dolore nulla minim.
                 </p>

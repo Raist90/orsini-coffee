@@ -9,7 +9,7 @@ const Header = () => {
                     <Link href="/"><Item>Home</Item></Link>
                     <Link href="#storia"><Item>Perché sceglierci</Item></Link>
                     <Link href="#caffe"><Item>I nostri caffè</Item></Link>
-                    <Link href="#"><Item>Contatti</Item></Link>
+                    <Link href="#contattaci"><Item>Contattaci</Item></Link>
                 </ItemList>
             </Navbar>
         </Container>

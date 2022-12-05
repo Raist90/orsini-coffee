@@ -9,9 +9,9 @@ import fourthImg from '../public/4.jpg'
 
 const Coffee = () => {
     return (
-        <Container>
+        <Container id="caffe">
             <div>
-                <Title id="caffe">I nostri caffè</Title>
+                <Title>I nostri caffè</Title>
                 <p>In irure in laboris voluptate magna officia amet ullamco ea non dolor.</p>
             </div>
 

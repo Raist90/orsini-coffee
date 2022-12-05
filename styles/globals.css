@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth !important; /* without !important doesnt works when clicking on #ids */
+}
+
 html,
 body {
   padding: 0;
@@ -51,8 +55,72 @@ section {
   opacity: 1;
 }
 
+/* forms styles */
+form, input::placeholder, input[type=submit], textarea, input {
+  font-family: 'DM Sans', sans-serif;
+}
+
+form {
+  width: 60%;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+input, input[type="submit"], textarea {
+  display: block;
+}
+
+input, textarea {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+input[type=text], input[type=email], textarea {
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  padding: 20px;
+}
+
+  input::placeholder, textarea::placeholder {
+      color: rgba(0, 0, 0, .7);
+  }
+
+  input:focus, textarea:focus {
+    outline: #A52A2A 2px solid;
+  }
+
+input[type=submit] {
+  background: #A52A2A;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: all linear 200ms;
+  width: 100%;
+  margin-bottom: 0;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+}
+
+textarea, input {
+  width: 100%;
+}
+
+/* mobile styles */
 @media (min-width: 320px) and (max-width: 480px) {
   body {
     font-size: 1rem;
   }
+
+  form {
+    width: 100%;
+  }
+
+    input, input::placeholder, textarea::placeholder, textarea, input[type=submit] {
+      font-size: 1rem;
+      line-height: 1rem;
+    }
 }

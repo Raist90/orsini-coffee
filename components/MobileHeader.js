@@ -42,25 +42,13 @@ const MobileHeader = () => {
                     <Link href="#caffe" onClick={handleToggleNav}>
                         <Item>I nostri caffè</Item>
                     </Link>
-                    <Link href="#" onClick={handleToggleNav}>
-                        <Item>Contatti</Item>
+                    <Link href="#contattaci" onClick={handleToggleNav}>
+                        <Item>Contattaci</Item>
                     </Link>
                 </ul>
             </ToggleNavContainer>
         </>
     )
-
-    // if (toggle) {
-    //     return (
-    //         <Container>
-    //             <p>Test riuscito</p>
-    //         </Container>
-    //     )
-    // } else {
-    //     return (
-    //         
-    //     )
-    // }
 }
 
 export default MobileHeader
