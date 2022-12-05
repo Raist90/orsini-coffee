@@ -26,7 +26,7 @@ const About = () => {
 
             <RightCol>
                 <CupPic
-                    src="../tazza-caffe.jpg"
+                    src="../tazza-caffe.webp"
                     alt="tazza di caffè"
                     data-aos="fade-up"
                     data-aos-delay="300"
